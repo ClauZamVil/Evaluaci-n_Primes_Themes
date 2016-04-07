@@ -1,36 +1,156 @@
-header{
-	background-image: url("..//img/background/hero.jpg");
-	background-size: cover;
+header {
+	background-image: url("../img/background/hero.jpg");
 	width: 100%;
-	height: 600px;
+	height: 500px;
 	position: relative;
+	background-size: cover;
 }
-
 ul{
 	position: absolute;
-	left: 700px
-}
-
-li{
-	text-decoration: none;
+	left: 600px;
+	top: 0px;
 	display: inline-table;
-	padding: 30px;
-	color: white;
 }
-
-
-.logo{
-	width: 100px;
-	height: 100px;
-	position: absolute;
+li {
+	display: table-cell; padding: 30px;
 	color: white;
-	left: 50px;
-	top:50px;
-
+	font-family: helvetica;
 }
-
-.first{
-	color: #00FFFF;
+.azul {
+	color: #26B5EB;
 	font-family: helvetica;
 
 }
+
+.prime {
+	font-family: helvetica;
+	width: 200px;
+	height: 100px;
+	position: absolute;
+	left: 30px;
+	top: 20px;
+	color: white;
+}
+.titulo h1{
+	font-weight: lighter;
+}
+
+.titulo {
+	font-family: helvetica;
+    position: absolute;
+    left: 200px;
+    top: 250px;
+    color: white;
+   
+}
+.centro {
+	text-align: center;
+}
+.ima {
+	background-image: url("../img/laptop-features.png");
+	width: 100%;
+	height: 400px;
+	position: relative;
+	background-size: cover;
+}
+.gen {
+	position: absolute;
+	left: 500px;
+	top: 10px;
+}
+.foto {
+	width: 400px;
+	height: 250px;
+	border-top: 6px solid white;
+	border-left: 6px solid white; 
+	border-bottom: 40px solid white; 
+	border-right: 6px solid white;
+	margin: 15px;
+}
+
+.isq {
+	position: relative;
+	top: 150px;
+	left: 150px;
+}
+.der {
+	position: relative;
+	top: 150px;
+}
+span .di {
+	position: relative;
+	left: 100px;
+	top: 50px;
+}
+
+.col-4 i{
+	color: #66CCFF;
+}
+
+.col-4 h4{
+	color:#999999;
+
+}
+.col-4 p{
+	color: grey;
+	font-family: helvetica;
+	font-size: 10px;
+}
+
+.boton{
+	height: 36px;
+	width: 104px;
+	background-color: #333333;
+	margin-top: 340px;
+	margin-left:400px;
+
+
+}
+
+.ima h1{
+	font-weight: lighter;
+	font-family: helvetica;
+
+}
+
+.texto_boton{
+	text-align: center;
+	color: white;
+	font-family: helvetica;
+
+
+}
+
+.boton_2{
+	height: 36px;
+	width: 104px;
+	background-color: #333333;
+	margin-top: 340px;
+	margin-left:400px;
+
+
+}
+
+.texto_boton_2{
+	text-align: center;
+	color: white;
+	font-family: helvetica;
+	
+
+}
+
+.container_2{
+	background-color: #F2F2F2;
+}
+
+.col-6 h3{
+	color:grey;
+	font-family: helvetica;
+
+}
+
+.fondo_2{
+	background-color: #333333;
+}
+
+
